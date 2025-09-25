@@ -82,12 +82,12 @@ class Circle : IShape, IExtraCalculations
 {
     public double Radius { get; set; }
 
-    public override double Area()
+    public double Area()
     {
         return Math.PI * Radius * Radius;
     }
 
-    public override double Perimeter()
+    public double Perimeter()
     {
         return 2.0 * Math.PI * Radius;
     }

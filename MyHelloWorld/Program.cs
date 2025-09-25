@@ -10,7 +10,6 @@ namespace MyHelloWorld
             bool isTrue = true;
             int count = 5;
             char letter = 'A';
-            nothing = null;
             DateTime now = DateTime.Now;
             DateOnly today = DateOnly.FromDateTime(DateTime.Now);
 
